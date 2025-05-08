@@ -1,9 +1,0 @@
-{
-  "id" : "Binary-image-example",
-  "baseLang" : "en",
-  "languages" : [
-    {
-      "targetLang" : "fr"
-    }
-  ]
-}

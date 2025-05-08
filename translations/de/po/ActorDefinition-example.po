@@ -1,7 +1,0 @@
-msgid ""
-msgstr ""
-"Language: de\n"
-"X-Generator: Poedit 3.5\n"
-
-# en -> de
-

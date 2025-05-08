@@ -1,9 +1,0 @@
-{
-  "id" : "Binary-example",
-  "baseLang" : "en",
-  "languages" : [
-    {
-      "targetLang" : "de"
-    }
-  ]
-}

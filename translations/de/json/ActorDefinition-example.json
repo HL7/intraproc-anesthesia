@@ -1,9 +1,0 @@
-{
-  "id" : "ActorDefinition-example",
-  "baseLang" : "en",
-  "languages" : [
-    {
-      "targetLang" : "de"
-    }
-  ]
-}
