@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="fr" id="Questionnaire-example" original="Resource Questionnaire-example" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Questionnaire-example" resname="Questionnaire.Questionnaire.title">
+             <notes>
+               <note id="n1">A short, descriptive, user-friendly title for the questionnaire.</note>
+             </notes>
+        <source>Cancer Quality Forum Questionnaire 2012</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Questionnaire-example" resname="Questionnaire.Questionnaire.publisher">
+             <notes>
+               <note id="n1">The name of the organization or individual that published the questionnaire.</note>
+             </notes>
+        <source>HL7 International - Devices Group</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Questionnaire-example" resname="Questionnaire.Questionnaire.item.item.prefix">
+             <notes>
+               <note id="n1">A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.</note>
+             </notes>
+        <source>1</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Questionnaire-example" resname="Questionnaire.Questionnaire.item.item.item.enableWhen.question">
+             <notes>
+               <note id="n1">The linkId for the question whose answer (or lack of answer) governs whether this item is enabled.</note>
+             </notes>
+        <source>1.1</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Questionnaire-example" resname="Questionnaire.Questionnaire.item.item.item.item.prefix">
+             <notes>
+               <note id="n1">A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.</note>
+             </notes>
+        <source>1.1</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Questionnaire-example" resname="Questionnaire.Questionnaire.item.item.item.item.item.code.display">
+             <notes>
+               <note id="n1">A representation of the meaning of the code in the system, following the rules of the system.</note>
+             </notes>
+        <source>Angina Pectoris</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Questionnaire-example" resname="Questionnaire.Questionnaire.item.item.item.item.item.code.display">
+             <notes>
+               <note id="n1">A representation of the meaning of the code in the system, following the rules of the system.</note>
+             </notes>
+        <source>Angina (disorder)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Questionnaire-example" resname="Questionnaire.Questionnaire.item.item.item.item.item.prefix">
+             <notes>
+               <note id="n1">A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.</note>
+             </notes>
+        <source>1.1.1</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Questionnaire-example" resname="Questionnaire.Questionnaire.item.item.item.item.item.code.display">
+             <notes>
+               <note id="n1">A representation of the meaning of the code in the system, following the rules of the system.</note>
+             </notes>
+        <source>Myocardial infarction (disorder)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Questionnaire-example" resname="Questionnaire.Questionnaire.item.item.item.item.item.prefix">
+             <notes>
+               <note id="n1">A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.</note>
+             </notes>
+        <source>1.1.2</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Questionnaire-example" resname="Questionnaire.Questionnaire.item.item.item.item.prefix">
+             <notes>
+               <note id="n1">A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.</note>
+             </notes>
+        <source>1.2</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Questionnaire-example" resname="Questionnaire.Questionnaire.item.item.item.code.display">
+             <notes>
+               <note id="n1">A representation of the meaning of the code in the system, following the rules of the system.</note>
+             </notes>
+        <source>pT category</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

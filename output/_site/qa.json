@@ -1,0 +1,19 @@
+{
+  "url" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
+  "name" : "YourComputableMyIGNameHere",
+  "title" : "Anaesthesia IG",
+  "description" : "An initial build of the Anesthesia FHIR-IG",
+  "status" : "draft",
+  "package-id" : "example.fhir.uv.myig",
+  "ig-ver" : "0.2.0",
+  "date" : "Thu, 08 May, 2025 11:00:35 +0100",
+  "dateISO8601" : "2025-05-08T11:00:35+01:00",
+  "errs" : 26,
+  "warnings" : 31,
+  "hints" : 9,
+  "suppressed-hints" : 1,
+  "suppressed-warnings" : 1,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 901635056
+}

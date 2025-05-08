@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="de" id="Patient-example" original="Resource Patient-example" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Patient-example" resname="Patient.Patient.name.family">
+             <notes>
+               <note id="n1">The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.</note>
+             </notes>
+        <source>Smith</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Patient-example" resname="Patient.Patient.name.given">
+             <notes>
+               <note id="n1">Given name.</note>
+             </notes>
+        <source>Jack</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Patient-example" resname="Patient.Patient.name.given">
+             <notes>
+               <note id="n1">Given name.</note>
+             </notes>
+        <source>John</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Patient-example" resname="Patient.Patient.name.given">
+             <notes>
+               <note id="n1">Given name.</note>
+             </notes>
+        <source>Jacob</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Patient-example" resname="Patient.Patient.name.given">
+             <notes>
+               <note id="n1">Given name.</note>
+             </notes>
+        <source>Jingleheimer</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Patient-example" resname="Patient.Patient.maritalStatus.text">
+             <notes>
+               <note id="n1">A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.</note>
+             </notes>
+        <source>Married</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

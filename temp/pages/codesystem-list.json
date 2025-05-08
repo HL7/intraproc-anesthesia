@@ -1,0 +1,12 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "CodeSystemFake",
+      "title" : "CodeSystem fake",
+      "description" : "A fake code system"
+    }
+  ]
+}

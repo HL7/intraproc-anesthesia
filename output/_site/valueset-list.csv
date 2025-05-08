@@ -1,0 +1,3 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake,0.2.0,draft,,ValueSetFake,ValueSet fake,"A fake value",,"Internal"
+http://somewhere.org/fhir/uv/myig/ValueSet/valueset-no-codesystem,0.2.0,draft,,ValueSetWithNoCodeSystem,ValueSet with no code-system,"A sample value set where there's no known code system",,"Other"

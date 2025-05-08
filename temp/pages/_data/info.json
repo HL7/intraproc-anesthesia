@@ -1,0 +1,12 @@
+{
+  "releaselabel":"CI Build",
+  "copyrightyear":"2019+",
+  "shownav":"y",
+  "excludexml":"N",
+  "excludejson":"N",
+  "excludettl":"N",
+  "excludelogbinaryformat":"y",
+  "excludemap":"N",
+  "fcpspec":"false",
+  "fmm-definition":"http://hl7.org/fhir/versions.html#maturity"
+}

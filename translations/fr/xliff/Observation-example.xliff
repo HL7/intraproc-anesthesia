@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="fr" id="Observation-example" original="Resource Observation-example" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Observation-example" resname="Observation.Observation.code.coding.display">
+             <notes>
+               <note id="n1">A representation of the meaning of the code in the system, following the rules of the system.</note>
+             </notes>
+        <source>CS1</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Observation-example" resname="Observation.Observation.code.coding.display">
+             <notes>
+               <note id="n1">A representation of the meaning of the code in the system, following the rules of the system.</note>
+             </notes>
+        <source>CS2</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Observation-example" resname="Observation.Observation.code.coding.display">
+             <notes>
+               <note id="n1">A representation of the meaning of the code in the system, following the rules of the system.</note>
+             </notes>
+        <source>VS1</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Observation-example" resname="Observation.Observation.code.coding.display">
+             <notes>
+               <note id="n1">A representation of the meaning of the code in the system, following the rules of the system.</note>
+             </notes>
+        <source>VS2</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

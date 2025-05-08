@@ -1,0 +1,83 @@
+{
+  "id" : "Questionnaire-example",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "fr",
+      "entries" : [
+        {
+          "id" : "Questionnaire.Questionnaire.title",
+          "context" : "A short, descriptive, user-friendly title for the questionnaire.",
+          "source" : "Cancer Quality Forum Questionnaire 2012",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.Questionnaire.publisher",
+          "context" : "The name of the organization or individual that published the questionnaire.",
+          "source" : "HL7 International - Devices Group",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.Questionnaire.item.item.prefix",
+          "context" : "A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.",
+          "source" : "1",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.Questionnaire.item.item.item.enableWhen.question",
+          "context" : "The linkId for the question whose answer (or lack of answer) governs whether this item is enabled.",
+          "source" : "1.1",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.Questionnaire.item.item.item.item.prefix",
+          "context" : "A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.",
+          "source" : "1.1",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.Questionnaire.item.item.item.item.item.code.display",
+          "context" : "A representation of the meaning of the code in the system, following the rules of the system.",
+          "source" : "Angina Pectoris",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.Questionnaire.item.item.item.item.item.code.display",
+          "context" : "A representation of the meaning of the code in the system, following the rules of the system.",
+          "source" : "Angina (disorder)",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.Questionnaire.item.item.item.item.item.prefix",
+          "context" : "A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.",
+          "source" : "1.1.1",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.Questionnaire.item.item.item.item.item.code.display",
+          "context" : "A representation of the meaning of the code in the system, following the rules of the system.",
+          "source" : "Myocardial infarction (disorder)",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.Questionnaire.item.item.item.item.item.prefix",
+          "context" : "A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.",
+          "source" : "1.1.2",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.Questionnaire.item.item.item.item.prefix",
+          "context" : "A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.",
+          "source" : "1.2",
+          "target" : null
+        },
+        {
+          "id" : "Questionnaire.Questionnaire.item.item.item.code.display",
+          "context" : "A representation of the meaning of the code in the system, following the rules of the system.",
+          "source" : "pT category",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Language: de\n"
+"X-Generator: Poedit 3.5\n"
+
+# en -> de
+
+#. A natural language name identifying the value set. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+msgctxt "ValueSet.ValueSet.name"
+msgid "ValueSetWithNoCodeSystem"
+msgstr ""
+
+#. A short, descriptive, user-friendly title for the value set.
+msgctxt "ValueSet.ValueSet.title"
+msgid "ValueSet with no code-system"
+msgstr ""
+
+#. The name of the organization or individual that published the value set.
+msgctxt "ValueSet.ValueSet.publisher"
+msgid "HL7 International - Devices Group"
+msgstr ""
+
+#. A free text natural language description of the value set from a consumer's perspective. The textual description specifies the span of meanings for concepts to be included within the Value Set Expansion, and also may specify the intended use and limitations of the Value Set.
+msgctxt "ValueSet.ValueSet.description"
+msgid "A sample value set where there's no known code system"
+msgstr ""
+
+#. The version of the code system that the codes are selected from, or the special version '*' for all versions.
+msgctxt "ValueSet.ValueSet.compose.include.version"
+msgid "2.36"
+msgstr ""
+

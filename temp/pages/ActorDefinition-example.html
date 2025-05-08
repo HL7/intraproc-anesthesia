@@ -1,0 +1,47 @@
+---
+---
+{% include fragment-pagebegin.html %}
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-base-navtabs.html type='ActorDefinition' id='example' active='content' %}
+  <a name="root"> </a>
+
+  <h2 id="root">ActorDefinition: {{site.data.pages[page.path].title | escape_once}}
+{% if site.data.resources[resource_].experimental == true %}(Experimental){% endif %}
+  </h2>
+
+{% include fragment-resourceTable.html %}
+
+{%if site.data.resources[resource_].description %}
+<p>
+{{site.data.resources[resource_].description|markdownify}}
+</p>
+{% endif %}
+{%if site.data.resources[resource_].purpose %}
+<p>
+{{site.data.resources[resource_].purpose|markdownify}}
+</p>
+{% endif %}
+  <!-- insert intro if present -->
+  {% include fragment-intro.html type='ActorDefinition' id='example' %}
+
+<!--  <p>
+  Formats: <a href="ActorDefinition-example.xml.html">XML</a>, <a href="ActorDefinition-example.json.html">JSON</a>, <a href="ActorDefinition-example.ttl.html">Turtle</a>
+  </p>-->
+{% unless example %}
+  {% if 'ActorDefinition' == 'CapabilityStatement' %}
+  <p>
+      <a href="example.openapi.json" no-download="true">Raw OpenAPI-Swagger Definition file</a> | <a href="example.openapi.json" download>Download</a>
+  </p>
+  {% endif %}
+{% endunless %}
+
+  {% include ActorDefinition-example-html.xhtml %}
+
+  <!-- insert notes if present -->
+  {% include fragment-notes.html type='ActorDefinition' id='example' %}
+
+  {%include ActorDefinition-example-history.xhtml%}
+
+</div>
+{% include fragment-pageend.html %}

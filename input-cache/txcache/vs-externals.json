@@ -1,0 +1,14 @@
+{
+  "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.117.1.7.1.292" : {
+    "server" : "http://tx.fhir.org/r4",
+    "filename" : "vs-30bcc8e6-66fc-4831-b26f-b85882cae786.json"
+  },
+  "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.666.5.307" : {
+    "server" : "http://tx.fhir.org/r4",
+    "filename" : "vs-b82d6cc3-5cad-47d5-bbf3-2a91d37983ec.json"
+  },
+  "TBD" : null,
+  "http://not-a-known-code-system|2.36" : null,
+  "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.101.12.1053" : null,
+  "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.101.12.1082" : null
+}

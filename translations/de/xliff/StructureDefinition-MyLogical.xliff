@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="de" id="StructureDefinition-MyLogical" original="Resource StructureDefinition-MyLogical" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="StructureDefinition-MyLogical" resname="name">
+             <notes>
+               <note id="n1">A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.</note>
+             </notes>
+        <source>MyLogical</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="StructureDefinition-MyLogical" resname="title">
+             <notes>
+               <note id="n1">A short, descriptive, user-friendly title for the structure definition.</note>
+             </notes>
+        <source>My Logical Model</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="StructureDefinition-MyLogical" resname="publisher">
+             <notes>
+               <note id="n1">The name of the organization or individual responsible for the release and ongoing maintenance of the structure definition.</note>
+             </notes>
+        <source>HL7 International - Devices Group</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

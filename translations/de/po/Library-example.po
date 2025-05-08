@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Language: de\n"
+"X-Generator: Poedit 3.5\n"
+
+# en -> de
+
+#. A natural language name identifying the library. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+msgctxt "Library.Library.name"
+msgid "Example"
+msgstr ""
+
+#. A short, descriptive, user-friendly title for the library.
+msgctxt "Library.Library.title"
+msgid "Example CQL Library"
+msgstr ""
+
+#. The name of the organization or individual that published the library.
+msgctxt "Library.Library.publisher"
+msgid "HL7 International - Devices Group"
+msgstr ""
+
+#. A free text natural language description of the library from a consumer's perspective.
+msgctxt "Library.Library.description"
+msgid "Some example library"
+msgstr ""
+
+#. A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.
+msgctxt "Library.Library.relatedArtifact.display"
+msgid "Library FHIRHelpers"
+msgstr ""
+
+#. A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.
+msgctxt "Library.Library.relatedArtifact.display"
+msgid "Code System Observation Category Codes"
+msgstr ""
+
+#. A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.
+msgctxt "Library.Library.relatedArtifact.display"
+msgid "Value Set Encounter Inpatient"
+msgstr ""
+
+#. A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.
+msgctxt "Library.Library.relatedArtifact.display"
+msgid "Value Set Emergency Department Visit"
+msgstr ""
+
+#. A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.
+msgctxt "Library.Library.relatedArtifact.display"
+msgid "Value Set Telephone Evaluation"
+msgstr ""
+
+#. A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.
+msgctxt "Library.Library.relatedArtifact.display"
+msgid "Value Set Telephone Management"
+msgstr ""
+
+#. A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.
+msgctxt "Library.Library.relatedArtifact.display"
+msgid "Value Set COVID-19 Screening Result"
+msgstr ""
+
+#. The maximum number of times this element is permitted to appear in the request or response.
+msgctxt "Library.Library.parameter.max"
+msgid "1"
+msgstr ""
+
+#. The maximum number of times this element is permitted to appear in the request or response.
+msgctxt "Library.Library.parameter.max"
+msgid "*"
+msgstr ""
+
+#. The code-valued attribute of the filter. The specified path SHALL be a FHIRPath resolveable on the specified type of the DataRequirement, and SHALL consist only of identifiers, constant indexers, and .resolve(). The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](fhirpath.html#simple) for full details). Note that the index must be an integer constant. The path must resolve to an element of type code, Coding, or CodeableConcept.
+msgctxt "Library.Library.dataRequirement.codeFilter.path"
+msgid "type"
+msgstr ""
+
+#. The code-valued attribute of the filter. The specified path SHALL be a FHIRPath resolveable on the specified type of the DataRequirement, and SHALL consist only of identifiers, constant indexers, and .resolve(). The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](fhirpath.html#simple) for full details). Note that the index must be an integer constant. The path must resolve to an element of type code, Coding, or CodeableConcept.
+msgctxt "Library.Library.dataRequirement.codeFilter.path"
+msgid "code"
+msgstr ""
+

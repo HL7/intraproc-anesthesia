@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://hl7.org/fhir/ValueSet/yesnodontknow,4.0.1,draft,,Yes/No/Don't Know,,"For Capturing simple yes-no-don't know answers","Questionnaire/example","THO"
+http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake,0.2.0,draft,,ValueSetFake,ValueSet fake,"A fake value","StructureDefinition/myObservation","Internal"
+http://somewhere.org/fhir/uv/myig/ValueSet/valueset-no-codesystem,0.2.0,draft,,ValueSetWithNoCodeSystem,ValueSet with no code-system,"A sample value set where there's no known code system",,"Other"

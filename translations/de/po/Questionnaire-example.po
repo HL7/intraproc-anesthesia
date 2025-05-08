@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Language: de\n"
+"X-Generator: Poedit 3.5\n"
+
+# en -> de
+
+#. A short, descriptive, user-friendly title for the questionnaire.
+msgctxt "Questionnaire.Questionnaire.title"
+msgid "Cancer Quality Forum Questionnaire 2012"
+msgstr ""
+
+#. The name of the organization or individual that published the questionnaire.
+msgctxt "Questionnaire.Questionnaire.publisher"
+msgid "HL7 International - Devices Group"
+msgstr ""
+
+#. A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
+msgctxt "Questionnaire.Questionnaire.item.item.prefix"
+msgid "1"
+msgstr ""
+
+#. The linkId for the question whose answer (or lack of answer) governs whether this item is enabled.
+msgctxt "Questionnaire.Questionnaire.item.item.item.enableWhen.question"
+msgid "1.1"
+msgstr ""
+
+#. A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
+msgctxt "Questionnaire.Questionnaire.item.item.item.item.prefix"
+msgid "1.1"
+msgstr ""
+
+#. A representation of the meaning of the code in the system, following the rules of the system.
+msgctxt "Questionnaire.Questionnaire.item.item.item.item.item.code.display"
+msgid "Angina Pectoris"
+msgstr ""
+
+#. A representation of the meaning of the code in the system, following the rules of the system.
+msgctxt "Questionnaire.Questionnaire.item.item.item.item.item.code.display"
+msgid "Angina (disorder)"
+msgstr ""
+
+#. A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
+msgctxt "Questionnaire.Questionnaire.item.item.item.item.item.prefix"
+msgid "1.1.1"
+msgstr ""
+
+#. A representation of the meaning of the code in the system, following the rules of the system.
+msgctxt "Questionnaire.Questionnaire.item.item.item.item.item.code.display"
+msgid "Myocardial infarction (disorder)"
+msgstr ""
+
+#. A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
+msgctxt "Questionnaire.Questionnaire.item.item.item.item.item.prefix"
+msgid "1.1.2"
+msgstr ""
+
+#. A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
+msgctxt "Questionnaire.Questionnaire.item.item.item.item.prefix"
+msgid "1.2"
+msgstr ""
+
+#. A representation of the meaning of the code in the system, following the rules of the system.
+msgctxt "Questionnaire.Questionnaire.item.item.item.code.display"
+msgid "pT category"
+msgstr ""
+

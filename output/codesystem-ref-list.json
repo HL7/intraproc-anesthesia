@@ -1,0 +1,27 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "CodeSystemFake",
+      "title" : "CodeSystem fake",
+      "description" : "A fake code system",
+      "uses" : {
+      },
+      "ValueSet-valueset-fake.html" : "ValueSet fake"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "DataAbsentReason",
+      "title" : "DataAbsentReason",
+      "description" : "Used to specify why the normally expected content of the data element is missing.",
+      "oids" : ["2.16.840.1.113883.4.642.4.1048"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-example-yesnodontknow.html" : "Yes/No/Don't Know"
+    }
+  ]
+}

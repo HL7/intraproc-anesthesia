@@ -1,0 +1,413 @@
+{
+  "id" : "ImplementationGuide-example.fhir.uv.myig",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "fr",
+      "entries" : [
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.name",
+          "context" : "A natural language name identifying the implementation guide. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
+          "source" : "YourComputableMyIGNameHere",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.title",
+          "context" : "A short, descriptive, user-friendly title for the implementation guide.",
+          "source" : "Anaesthesia IG",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.publisher",
+          "context" : "The name of the organization or individual that published the implementation guide.",
+          "source" : "HL7 International - Devices Group",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.description",
+          "context" : "A free text natural language description of the implementation guide from a consumer's perspective.",
+          "source" : "An initial build of the Anesthesia FHIR-IG",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.dependsOn.version",
+          "context" : "The version of the IG that is depended on, when the correct version is required to understand the IG correctly.",
+          "source" : "6.3.0",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.dependsOn.version",
+          "context" : "The version of the IG that is depended on, when the correct version is required to understand the IG correctly.",
+          "source" : "5.2.0",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.dependsOn.version",
+          "context" : "The version of the IG that is depended on, when the correct version is required to understand the IG correctly.",
+          "source" : "4.0.1",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.grouping.name",
+          "context" : "The human-readable title to display for the package of resources when rendering the implementation guide.",
+          "source" : "not relevant",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "My Favorite Patient Profile",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.description",
+          "context" : "A description of the reason that a resource has been included in the implementation guide.",
+          "source" : "Overriding description because we can",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "My Logical Model",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.description",
+          "context" : "A description of the reason that a resource has been included in the implementation guide.",
+          "source" : "Logical Model",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "Example Library",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.description",
+          "context" : "A description of the reason that a resource has been included in the implementation guide.",
+          "source" : "A test example",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "Example Library Image",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.description",
+          "context" : "A description of the reason that a resource has been included in the implementation guide.",
+          "source" : "A test image example",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "Simple patient example",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.description",
+          "context" : "A description of the reason that a resource has been included in the implementation guide.",
+          "source" : "A simple example showing how examples are defined and referenced",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "Observation patient example",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.description",
+          "context" : "A description of the reason that a resource has been included in the implementation guide.",
+          "source" : "Example showing slicing",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "Example binary",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.description",
+          "context" : "A description of the reason that a resource has been included in the implementation guide.",
+          "source" : "Example showing binary content",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "Example of Logical Model",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.description",
+          "context" : "A description of the reason that a resource has been included in the implementation guide.",
+          "source" : "Example showing example content for a logical model",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "Example of Binary Image",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.description",
+          "context" : "A description of the reason that a resource has been included in the implementation guide.",
+          "source" : "Example showing example content for an image",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "Value set for no code system",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.description",
+          "context" : "A description of the reason that a resource has been included in the implementation guide.",
+          "source" : "A sample value set where there's no known code system",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "Example CQL Library",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.description",
+          "context" : "A description of the reason that a resource has been included in the implementation guide.",
+          "source" : "Some example library",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "null (Bundle)",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "Example Server",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.description",
+          "context" : "A description of the reason that a resource has been included in the implementation guide.",
+          "source" : "Client Actor",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "My awesome extension",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.description",
+          "context" : "A description of the reason that a resource has been included in the implementation guide.",
+          "source" : "What this extension means.",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "CodeSystem fake",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.description",
+          "context" : "A description of the reason that a resource has been included in the implementation guide.",
+          "source" : "A fake code system",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "My Observation Profile",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.description",
+          "context" : "A description of the reason that a resource has been included in the implementation guide.",
+          "source" : "A profile showing the use of XML to author profiles",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "Cancer Quality Forum Questionnaire 2012",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "ValueSet fake",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.description",
+          "context" : "A description of the reason that a resource has been included in the implementation guide.",
+          "source" : "A fake value",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.name",
+          "context" : "A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).",
+          "source" : "MyPractitionerName",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.resource.description",
+          "context" : "A description of the reason that a resource has been included in the implementation guide.",
+          "source" : "Description for the profile page",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.page.title",
+          "context" : "A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.",
+          "source" : "Table of Contents",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.page.page.title",
+          "context" : "A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.",
+          "source" : "Anesthesia-IG Home Page",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.page.page.title",
+          "context" : "A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.",
+          "source" : "Background",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.page.page.title",
+          "context" : "A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.",
+          "source" : "Detailed Specification",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.page.page.page.title",
+          "context" : "A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.",
+          "source" : "Fragments",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.page.page.page.title",
+          "context" : "A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.",
+          "source" : "Spec sub-page",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.page.page.title",
+          "context" : "A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.",
+          "source" : "Useful Downloads",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.page.page.title",
+          "context" : "A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.",
+          "source" : "IG Change History",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.parameter.value",
+          "context" : "Value for named type.",
+          "source" : "input\\history",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.parameter.value",
+          "context" : "Value for named type.",
+          "source" : "input/capabilities",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.parameter.value",
+          "context" : "Value for named type.",
+          "source" : "input/examples",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.parameter.value",
+          "context" : "Value for named type.",
+          "source" : "input/extensions",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.parameter.value",
+          "context" : "Value for named type.",
+          "source" : "input/models",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.parameter.value",
+          "context" : "Value for named type.",
+          "source" : "input/operations",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.parameter.value",
+          "context" : "Value for named type.",
+          "source" : "input/profiles",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.parameter.value",
+          "context" : "Value for named type.",
+          "source" : "input/resources",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.parameter.value",
+          "context" : "Value for named type.",
+          "source" : "input/vocabulary",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.parameter.value",
+          "context" : "Value for named type.",
+          "source" : "input/testing",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.parameter.value",
+          "context" : "Value for named type.",
+          "source" : "input/history",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.parameter.value",
+          "context" : "Value for named type.",
+          "source" : "fsh-generated/resources",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.parameter.value",
+          "context" : "Value for named type.",
+          "source" : "template/config",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.parameter.value",
+          "context" : "Value for named type.",
+          "source" : "input/images",
+          "target" : null
+        },
+        {
+          "id" : "ImplementationGuide.ImplementationGuide.definition.parameter.value",
+          "context" : "Value for named type.",
+          "source" : "input-cache/txcache",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

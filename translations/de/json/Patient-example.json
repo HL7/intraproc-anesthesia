@@ -1,0 +1,47 @@
+{
+  "id" : "Patient-example",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "de",
+      "entries" : [
+        {
+          "id" : "Patient.Patient.name.family",
+          "context" : "The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.",
+          "source" : "Smith",
+          "target" : null
+        },
+        {
+          "id" : "Patient.Patient.name.given",
+          "context" : "Given name.",
+          "source" : "Jack",
+          "target" : null
+        },
+        {
+          "id" : "Patient.Patient.name.given",
+          "context" : "Given name.",
+          "source" : "John",
+          "target" : null
+        },
+        {
+          "id" : "Patient.Patient.name.given",
+          "context" : "Given name.",
+          "source" : "Jacob",
+          "target" : null
+        },
+        {
+          "id" : "Patient.Patient.name.given",
+          "context" : "Given name.",
+          "source" : "Jingleheimer",
+          "target" : null
+        },
+        {
+          "id" : "Patient.Patient.maritalStatus.text",
+          "context" : "A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.",
+          "source" : "Married",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

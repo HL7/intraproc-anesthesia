@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="de" id="Bundle-h1" original="Resource Bundle-h1" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Bundle-h1" resname="Provenance.reason.text">
+             <notes>
+               <note id="n1">A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.</note>
+             </notes>
+        <source>Add &quot;conductible&quot; property to ActRelationshipType and ParticipationType codes.for ContextConduction RIM Change. And create Concept domain CodeSystem and ValueSet for ContextConductionStyle</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-h1" resname="Provenance.agent.who.display">
+             <notes>
+               <note id="n1">Plain text narrative that identifies the resource in addition to the resource reference.</note>
+             </notes>
+        <source>Rob Hausam</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-h1" resname="Provenance.agent.who.display">
+             <notes>
+               <note id="n1">Plain text narrative that identifies the resource in addition to the resource reference.</note>
+             </notes>
+        <source>Vocab</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

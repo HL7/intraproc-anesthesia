@@ -1,0 +1,42 @@
+<div xmlns="http://www.w3.org/1999/xhtml"><div class="markdown-toc"><p>Contents:</p><ul><li><a href="#intro">Introduction</a></li><li><a href="#scope">Scope and Boundaries</a></li><li><a href="#intended_readers">Intended Readers</a></li></ul></div>
+  <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
+  <a name="intro">  </a>
+  <h3>Introduction</h3>
+	<p>
+    Surgical care is often provided in partnership with anesthesiologists. Care records describe the operation, the anesthetic,  staff involved, equipment used and instructions for post-operative care.<br/>
+    Sharing care records is difficult because their structure and content isn't consistent between different care record system providers. This Implementation Guide is an attempt to define a framework for representing the anesthetic care record. In the first phase, only the intra-operative details are in scope. In the next phase, pre- and post-operative phases will be considered.
+  </p>
+	<a name="scope">  </a>
+	<h3>Scope and Boundaries</h3>
+	<p>
+    Peri-operative care begins with surgical referral and can extend into a prolonged post-operative care period. This IG is resticted to the anesthetic care received during a surgical care episode and additionally, to the intra-operative phase of the episode.<br/>
+    Some parts of the anesthetic care record are covered by existing IGs. For example, data captured from bedside or near-patient monitoring devices is in the scope of the <a href="https://build.fhir.org/ig/HL7/uv-pocd/">Point-of-Care Device Implementation Guide</a>
+  </p>
+  <a name="intended_readers">  </a>
+  <h3>Intended Readers</h3>
+  <p>This Implementation Guide is intended for
+  <ul>
+  <li>healthcare professionals that are involved in the design, specification, procurement and deployment of digital care records, in particular AIMS (Anesthesia Information Management Systems). </li>
+  <li>Developers and system integration engineers seeking to exchange structured care data between existing systems</li>
+  <li>Developers of new care record systems, in particular AIMS.</li>
+  </ul>
+  </p>
+  <p>
+    The main sections of this IG are:
+  </p>
+  <ul>
+    <li>
+      <a href="background.html">Background</a> - provides business context for the implementation guide and information that implementers should be
+      familiar with before reading the remainder of the IG.  There could be multiple pages for this.
+    </li>
+    <li>
+      <a href="spec.html">Detailed Specification</a> - The actual stuff implementers are expected to do.  (Could be multiple pages for this.)
+    </li>
+    <li>
+      <a href="fragments.html">Fragments</a> - Guidance about how to embed fragments in an IG
+    </li>
+    <li>
+      <a href="downloads.html">Downloads</a> - Allows downloading a copy of this implementation guide and other useful information
+    </li>
+  </ul>
+</div>

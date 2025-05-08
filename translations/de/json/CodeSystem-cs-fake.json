@@ -1,0 +1,47 @@
+{
+  "id" : "CodeSystem-cs-fake",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "de",
+      "entries" : [
+        {
+          "id" : "CodeSystem.CodeSystem.name",
+          "context" : "A natural language name identifying the code system. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
+          "source" : "CodeSystemFake",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.CodeSystem.title",
+          "context" : "A short, descriptive, user-friendly title for the code system.",
+          "source" : "CodeSystem fake",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.CodeSystem.publisher",
+          "context" : "The name of the organization or individual that published the code system.",
+          "source" : "HL7 International - Devices Group",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.CodeSystem.description",
+          "context" : "A free text natural language description of the code system from a consumer's perspective.",
+          "source" : "A fake code system",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.CodeSystem.concept.display",
+          "context" : "A human readable string that is the recommended default way to present this concept to a user.",
+          "source" : "CS1",
+          "target" : null
+        },
+        {
+          "id" : "CodeSystem.CodeSystem.concept.designation.value",
+          "context" : "The text value for this designation.",
+          "source" : "CS2",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

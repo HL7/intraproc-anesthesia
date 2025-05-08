@@ -1,0 +1,40 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/yesnodontknow",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Yes/No/Don't Know",
+      "title" : null,
+      "description" : "For Capturing simple yes-no-don't know answers",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v2-0532",
+        "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-example.html" : "Cancer Quality Forum Questionnaire 2012"
+    },
+    {
+      "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "ValueSetFake",
+      "title" : "ValueSet fake",
+      "description" : "A fake value",
+      "systems" : ["http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake"],
+      "uses" : {
+      },
+      "StructureDefinition-myObservation.html" : "My Observation Profile"
+    },
+    {
+      "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/valueset-no-codesystem",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "ValueSetWithNoCodeSystem",
+      "title" : "ValueSet with no code-system",
+      "description" : "A sample value set where there's no known code system",
+      "systems" : ["http://not-a-known-code-system"]
+    }
+  ]
+}

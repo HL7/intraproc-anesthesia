@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Language: de\n"
+"X-Generator: Poedit 3.5\n"
+
+# en -> de
+
+#. A natural language name identifying the value set. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+msgctxt "ValueSet.ValueSet.name"
+msgid "ValueSetFake"
+msgstr ""
+
+#. A short, descriptive, user-friendly title for the value set.
+msgctxt "ValueSet.ValueSet.title"
+msgid "ValueSet fake"
+msgstr ""
+
+#. The name of the organization or individual that published the value set.
+msgctxt "ValueSet.ValueSet.publisher"
+msgid "HL7 International - Devices Group"
+msgstr ""
+
+#. A free text natural language description of the value set from a consumer's perspective. The textual description specifies the span of meanings for concepts to be included within the Value Set Expansion, and also may specify the intended use and limitations of the Value Set.
+msgctxt "ValueSet.ValueSet.description"
+msgid "A fake value"
+msgstr ""
+
+#. The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
+msgctxt "ValueSet.ValueSet.compose.include.concept.display"
+msgid "VS1"
+msgstr ""
+
+#. The text value for this designation.
+msgctxt "ValueSet.ValueSet.compose.include.concept.designation.value"
+msgid "VS2"
+msgstr ""
+

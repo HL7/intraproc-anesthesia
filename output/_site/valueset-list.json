@@ -1,0 +1,22 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "ValueSetFake",
+      "title" : "ValueSet fake",
+      "description" : "A fake value",
+      "systems" : ["http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake"]
+    },
+    {
+      "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/valueset-no-codesystem",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "ValueSetWithNoCodeSystem",
+      "title" : "ValueSet with no code-system",
+      "description" : "A sample value set where there's no known code system",
+      "systems" : ["http://not-a-known-code-system"]
+    }
+  ]
+}

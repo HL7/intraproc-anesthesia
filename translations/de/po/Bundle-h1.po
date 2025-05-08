@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Language: de\n"
+"X-Generator: Poedit 3.5\n"
+
+# en -> de
+
+#. A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.
+msgctxt "Provenance.reason.text"
+msgid "Add "conductible" property to ActRelationshipType and ParticipationType codes.for ContextConduction RIM Change. And create Concept domain CodeSystem and ValueSet for ContextConductionStyle"
+msgstr ""
+
+#. Plain text narrative that identifies the resource in addition to the resource reference.
+msgctxt "Provenance.agent.who.display"
+msgid "Rob Hausam"
+msgstr ""
+
+#. Plain text narrative that identifies the resource in addition to the resource reference.
+msgctxt "Provenance.agent.who.display"
+msgid "Vocab"
+msgstr ""
+

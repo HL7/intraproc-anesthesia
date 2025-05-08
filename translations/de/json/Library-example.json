@@ -1,0 +1,101 @@
+{
+  "id" : "Library-example",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "de",
+      "entries" : [
+        {
+          "id" : "Library.Library.name",
+          "context" : "A natural language name identifying the library. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
+          "source" : "Example",
+          "target" : null
+        },
+        {
+          "id" : "Library.Library.title",
+          "context" : "A short, descriptive, user-friendly title for the library.",
+          "source" : "Example CQL Library",
+          "target" : null
+        },
+        {
+          "id" : "Library.Library.publisher",
+          "context" : "The name of the organization or individual that published the library.",
+          "source" : "HL7 International - Devices Group",
+          "target" : null
+        },
+        {
+          "id" : "Library.Library.description",
+          "context" : "A free text natural language description of the library from a consumer's perspective.",
+          "source" : "Some example library",
+          "target" : null
+        },
+        {
+          "id" : "Library.Library.relatedArtifact.display",
+          "context" : "A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.",
+          "source" : "Library FHIRHelpers",
+          "target" : null
+        },
+        {
+          "id" : "Library.Library.relatedArtifact.display",
+          "context" : "A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.",
+          "source" : "Code System Observation Category Codes",
+          "target" : null
+        },
+        {
+          "id" : "Library.Library.relatedArtifact.display",
+          "context" : "A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.",
+          "source" : "Value Set Encounter Inpatient",
+          "target" : null
+        },
+        {
+          "id" : "Library.Library.relatedArtifact.display",
+          "context" : "A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.",
+          "source" : "Value Set Emergency Department Visit",
+          "target" : null
+        },
+        {
+          "id" : "Library.Library.relatedArtifact.display",
+          "context" : "A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.",
+          "source" : "Value Set Telephone Evaluation",
+          "target" : null
+        },
+        {
+          "id" : "Library.Library.relatedArtifact.display",
+          "context" : "A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.",
+          "source" : "Value Set Telephone Management",
+          "target" : null
+        },
+        {
+          "id" : "Library.Library.relatedArtifact.display",
+          "context" : "A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.",
+          "source" : "Value Set COVID-19 Screening Result",
+          "target" : null
+        },
+        {
+          "id" : "Library.Library.parameter.max",
+          "context" : "The maximum number of times this element is permitted to appear in the request or response.",
+          "source" : "1",
+          "target" : null
+        },
+        {
+          "id" : "Library.Library.parameter.max",
+          "context" : "The maximum number of times this element is permitted to appear in the request or response.",
+          "source" : "*",
+          "target" : null
+        },
+        {
+          "id" : "Library.Library.dataRequirement.codeFilter.path",
+          "context" : "The code-valued attribute of the filter. The specified path SHALL be a FHIRPath resolveable on the specified type of the DataRequirement, and SHALL consist only of identifiers, constant indexers, and .resolve(). The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](fhirpath.html#simple) for full details). Note that the index must be an integer constant. The path must resolve to an element of type code, Coding, or CodeableConcept.",
+          "source" : "type",
+          "target" : null
+        },
+        {
+          "id" : "Library.Library.dataRequirement.codeFilter.path",
+          "context" : "The code-valued attribute of the filter. The specified path SHALL be a FHIRPath resolveable on the specified type of the DataRequirement, and SHALL consist only of identifiers, constant indexers, and .resolve(). The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](fhirpath.html#simple) for full details). Note that the index must be an integer constant. The path must resolve to an element of type code, Coding, or CodeableConcept.",
+          "source" : "code",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

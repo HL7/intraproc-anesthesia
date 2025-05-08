@@ -1,0 +1,35 @@
+{
+  "id" : "Observation-example",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "fr",
+      "entries" : [
+        {
+          "id" : "Observation.Observation.code.coding.display",
+          "context" : "A representation of the meaning of the code in the system, following the rules of the system.",
+          "source" : "CS1",
+          "target" : null
+        },
+        {
+          "id" : "Observation.Observation.code.coding.display",
+          "context" : "A representation of the meaning of the code in the system, following the rules of the system.",
+          "source" : "CS2",
+          "target" : null
+        },
+        {
+          "id" : "Observation.Observation.code.coding.display",
+          "context" : "A representation of the meaning of the code in the system, following the rules of the system.",
+          "source" : "VS1",
+          "target" : null
+        },
+        {
+          "id" : "Observation.Observation.code.coding.display",
+          "context" : "A representation of the meaning of the code in the system, following the rules of the system.",
+          "source" : "VS2",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

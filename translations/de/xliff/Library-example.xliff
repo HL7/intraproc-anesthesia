@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="de" id="Library-example" original="Resource Library-example" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Library-example" resname="Library.Library.name">
+             <notes>
+               <note id="n1">A natural language name identifying the library. This name should be usable as an identifier for the module by machine processing applications such as code generation.</note>
+             </notes>
+        <source>Example</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Library-example" resname="Library.Library.title">
+             <notes>
+               <note id="n1">A short, descriptive, user-friendly title for the library.</note>
+             </notes>
+        <source>Example CQL Library</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Library-example" resname="Library.Library.publisher">
+             <notes>
+               <note id="n1">The name of the organization or individual that published the library.</note>
+             </notes>
+        <source>HL7 International - Devices Group</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Library-example" resname="Library.Library.description">
+             <notes>
+               <note id="n1">A free text natural language description of the library from a consumer's perspective.</note>
+             </notes>
+        <source>Some example library</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Library-example" resname="Library.Library.relatedArtifact.display">
+             <notes>
+               <note id="n1">A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.</note>
+             </notes>
+        <source>Library FHIRHelpers</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Library-example" resname="Library.Library.relatedArtifact.display">
+             <notes>
+               <note id="n1">A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.</note>
+             </notes>
+        <source>Code System Observation Category Codes</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Library-example" resname="Library.Library.relatedArtifact.display">
+             <notes>
+               <note id="n1">A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.</note>
+             </notes>
+        <source>Value Set Encounter Inpatient</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Library-example" resname="Library.Library.relatedArtifact.display">
+             <notes>
+               <note id="n1">A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.</note>
+             </notes>
+        <source>Value Set Emergency Department Visit</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Library-example" resname="Library.Library.relatedArtifact.display">
+             <notes>
+               <note id="n1">A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.</note>
+             </notes>
+        <source>Value Set Telephone Evaluation</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Library-example" resname="Library.Library.relatedArtifact.display">
+             <notes>
+               <note id="n1">A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.</note>
+             </notes>
+        <source>Value Set Telephone Management</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Library-example" resname="Library.Library.relatedArtifact.display">
+             <notes>
+               <note id="n1">A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.</note>
+             </notes>
+        <source>Value Set COVID-19 Screening Result</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Library-example" resname="Library.Library.parameter.max">
+             <notes>
+               <note id="n1">The maximum number of times this element is permitted to appear in the request or response.</note>
+             </notes>
+        <source>1</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Library-example" resname="Library.Library.parameter.max">
+             <notes>
+               <note id="n1">The maximum number of times this element is permitted to appear in the request or response.</note>
+             </notes>
+        <source>*</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Library-example" resname="Library.Library.dataRequirement.codeFilter.path">
+             <notes>
+               <note id="n1">The code-valued attribute of the filter. The specified path SHALL be a FHIRPath resolveable on the specified type of the DataRequirement, and SHALL consist only of identifiers, constant indexers, and .resolve(). The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](fhirpath.html#simple) for full details). Note that the index must be an integer constant. The path must resolve to an element of type code, Coding, or CodeableConcept.</note>
+             </notes>
+        <source>type</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Library-example" resname="Library.Library.dataRequirement.codeFilter.path">
+             <notes>
+               <note id="n1">The code-valued attribute of the filter. The specified path SHALL be a FHIRPath resolveable on the specified type of the DataRequirement, and SHALL consist only of identifiers, constant indexers, and .resolve(). The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](fhirpath.html#simple) for full details). Note that the index must be an integer constant. The path must resolve to an element of type code, Coding, or CodeableConcept.</note>
+             </notes>
+        <source>code</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

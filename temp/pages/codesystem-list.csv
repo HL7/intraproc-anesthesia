@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake,0.2.0,draft,,CodeSystemFake,CodeSystem fake,"A fake code system",

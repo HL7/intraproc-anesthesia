@@ -1,0 +1,47 @@
+{
+  "id" : "ValueSet-valueset-fake",
+  "baseLang" : "en",
+  "languages" : [
+    {
+      "targetLang" : "de",
+      "entries" : [
+        {
+          "id" : "ValueSet.ValueSet.name",
+          "context" : "A natural language name identifying the value set. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
+          "source" : "ValueSetFake",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.ValueSet.title",
+          "context" : "A short, descriptive, user-friendly title for the value set.",
+          "source" : "ValueSet fake",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.ValueSet.publisher",
+          "context" : "The name of the organization or individual that published the value set.",
+          "source" : "HL7 International - Devices Group",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.ValueSet.description",
+          "context" : "A free text natural language description of the value set from a consumer's perspective. The textual description specifies the span of meanings for concepts to be included within the Value Set Expansion, and also may specify the intended use and limitations of the Value Set.",
+          "source" : "A fake value",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.ValueSet.compose.include.concept.display",
+          "context" : "The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.",
+          "source" : "VS1",
+          "target" : null
+        },
+        {
+          "id" : "ValueSet.ValueSet.compose.include.concept.designation.value",
+          "context" : "The text value for this designation.",
+          "source" : "VS2",
+          "target" : null
+        }
+      ]
+    }
+  ]
+}

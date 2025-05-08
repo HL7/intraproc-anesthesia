@@ -1,0 +1,27 @@
+msgid ""
+msgstr ""
+"Language: fr\n"
+"X-Generator: Poedit 3.5\n"
+
+# en -> fr
+
+#. A representation of the meaning of the code in the system, following the rules of the system.
+msgctxt "Observation.Observation.code.coding.display"
+msgid "CS1"
+msgstr ""
+
+#. A representation of the meaning of the code in the system, following the rules of the system.
+msgctxt "Observation.Observation.code.coding.display"
+msgid "CS2"
+msgstr ""
+
+#. A representation of the meaning of the code in the system, following the rules of the system.
+msgctxt "Observation.Observation.code.coding.display"
+msgid "VS1"
+msgstr ""
+
+#. A representation of the meaning of the code in the system, following the rules of the system.
+msgctxt "Observation.Observation.code.coding.display"
+msgid "VS2"
+msgstr ""
+
