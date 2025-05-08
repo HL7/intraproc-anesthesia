@@ -1,5 +1,14 @@
-# sample-ig
-A sample, template-driven implementation guide that provides a starting environment to use a base for defining new IGs
+# intraproc-ig
+
+## Intoduction
+
+This IG is intended for
+
+- healthcare professionals that are involved in the design, specification, procurement and deployment of digital care records, in particular AIMS (Anesthesia Information Management Systems).
+- Developers and system integration engineers seeking to exchange structured care data between existing systems
+- Developers of new care record systems, in particular AIMS.
+
+This is an initial development build. 
 
 
 See https://build.fhir.org/ig/FHIR/sample-ig/
@@ -7,7 +16,7 @@ See https://build.fhir.org/ig/FHIR/sample-ig/
 
 ## FHIR Foundation Project Statement
 
-* Maintainers: Grahame Grieve / Lloyd Mckenzie
+* Maintainers: Grant Forrest/Martin Hurrell
 * Issues / Discussion: Use github issues
 * License: Creative Commons Public Domain
 * Contribution Policy: Make PRs. PRs have to build ok with the latest IG Publisher
