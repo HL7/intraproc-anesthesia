@@ -11,7 +11,7 @@ This IG is intended for
 This is an initial development build. 
 
 
-See [https://build.fhir.org/ig/intraproc-anesthesia/](https://build.fhir.org/ig/intraproc-anesthesia)
+See [https://build.fhir.org/ig/HL7/intraproc-anesthesia/](https://build.fhir.org/ig/HL7/intraproc-anesthesia/)
 
 
 ## FHIR Foundation Project Statement
