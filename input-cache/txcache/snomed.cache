@@ -1,141 +1,74 @@
 -------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "194828000",
-  "display" : "Angina (disorder)"
-}, "valueSet" :null, "langs":"en-AU", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "413495001",
+        "display" : "American Society of Anesthesiologists physical status class 1 (finding)"
+      },
+      {
+        "code" : "413496000",
+        "display" : "American Society of Anesthesiologists physical status class 2 (finding)"
+      }]
+    }]
+  }
 }}####
-v: {
-  "display" : "Angina",
-  "code" : "194828000",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/32506021000036107/version/20240831",
-  "severity" : "error",
-  "error" : "Wrong Display Name 'Angina (disorder)' for http://snomed.info/sct#194828000. Valid display is one of 0 choices: [] (for the language(s) 'en-AU')",
-  "class" : "UNKNOWN",
-  "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
-    }],
-    "severity" : "error",
-    "code" : "invalid",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "invalid-display"
-      }],
-      "text" : "Wrong Display Name 'Angina (disorder)' for http://snomed.info/sct#194828000. Valid display is one of 0 choices: [] (for the language(s) 'en-AU')"
+e: {
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:98ada7e5-68c3-43e6-91fa-331bf53af69f",
+    "timestamp" : "2025-05-14T12:52:31.522Z",
+    "total" : 2,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "displayLanguage",
+      "valueCode" : "en-US"
     },
-    "location" : ["Coding.display"],
-    "expression" : ["Coding.display"]
-  }]
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "22298006",
-  "display" : "Myocardial infarction (disorder)"
-}, "valueSet" :null, "langs":"en-AU", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Myocardial infarction",
-  "code" : "22298006",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/32506021000036107/version/20240831",
-  "severity" : "error",
-  "error" : "Wrong Display Name 'Myocardial infarction (disorder)' for http://snomed.info/sct#22298006. Valid display is one of 0 choices: [] (for the language(s) 'en-AU')",
-  "class" : "UNKNOWN",
-  "server" : "https://tx.ontoserver.csiro.au/fhir",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.ontoserver.csiro.au/fhir"
-    }],
-    "severity" : "error",
-    "code" : "invalid",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "invalid-display"
-      }],
-      "text" : "Wrong Display Name 'Myocardial infarction (disorder)' for http://snomed.info/sct#22298006. Valid display is one of 0 choices: [] (for the language(s) 'en-AU')"
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
     },
-    "location" : ["Coding.display"],
-    "expression" : ["Coding.display"]
-  }]
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "194828000",
-  "display" : "Angina (disorder)"
-}, "valueSet" :null, "langs":"en-CA", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Angina",
-  "code" : "194828000",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20240201",
-  "server" : "http://tx.fhir.org/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "22298006",
-  "display" : "Myocardial infarction (disorder)"
-}, "valueSet" :null, "langs":"en-CA", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Myocardial infarction",
-  "code" : "22298006",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20240201",
-  "server" : "http://tx.fhir.org/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "413495001",
+      "display" : "American Society of Anesthesiologists physical status class 1 (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "413496000",
+      "display" : "American Society of Anesthesiologists physical status class 2 (finding)"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "194828000",
-  "display" : "Angina (disorder)"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "413495001"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -143,15 +76,15 @@ v: {
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "en-US"
   }]
 }}####
 v: {
-  "display" : "Angina",
-  "code" : "194828000",
+  "display" : "American Society of Anesthesiologists physical status class 1 (finding)",
+  "code" : "413495001",
   "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
-  "server" : "http://tx.fhir.org/r4",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
+  "server" : "https://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
@@ -161,9 +94,8 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "22298006",
-  "display" : "Myocardial infarction (disorder)"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "413496000"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -171,19 +103,85 @@ v: {
   },
   {
     "name" : "displayLanguage",
-    "valueCode" : "en"
+    "valueCode" : "en-US"
   }]
 }}####
 v: {
-  "display" : "Myocardial infarction",
-  "code" : "22298006",
+  "display" : "American Society of Anesthesiologists physical status class 2 (finding)",
+  "code" : "413496000",
   "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20240801",
-  "server" : "http://tx.fhir.org/r4",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
+  "server" : "https://tx.fhir.org/r4",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
 
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "413495001",
+        "display" : "American Society of Anesthesiologists physical status class 1 (finding)"
+      },
+      {
+        "code" : "413496000",
+        "display" : "American Society of Anesthesiologists physical status class 2 (finding)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:12c3282a-ddca-41e0-89f4-b3f3eea153a3",
+    "timestamp" : "2025-05-14T12:52:53.500Z",
+    "total" : 2,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "displayLanguage",
+      "valueCode" : "en-US"
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "413495001",
+      "display" : "American Society of Anesthesiologists physical status class 1 (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "413496000",
+      "display" : "American Society of Anesthesiologists physical status class 2 (finding)"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
