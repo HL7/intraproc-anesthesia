@@ -85,7 +85,6 @@ v: {
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
   "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -112,7 +111,6 @@ v: {
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
   "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -179,6 +177,317 @@ e: {
       "system" : "http://snomed.info/sct",
       "code" : "413496000",
       "display" : "American Society of Anesthesiologists physical status class 2 (finding)"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "413495001",
+        "display" : "American Society of Anesthesiologists physical status class 1 (finding)"
+      },
+      {
+        "code" : "413496000",
+        "display" : "American Society of Anesthesiologists physical status class 2 (finding)"
+      },
+      {
+        "code" : "413497009",
+        "display" : "American Society of Anesthesiologists physical status class 3 (finding)"
+      },
+      {
+        "code" : "413498004",
+        "display" : "American Society of Anesthesiologists physical status class 4 (finding)"
+      },
+      {
+        "code" : "413499007",
+        "display" : "American Society of Anesthesiologists physical status class 5 (finding)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:9027bbd1-36a2-4d12-95db-86d04949f9fd",
+    "timestamp" : "2025-12-11T21:49:10.755Z",
+    "total" : 5,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "413495001",
+      "display" : "American Society of Anesthesiologists physical status class 1 (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "413496000",
+      "display" : "American Society of Anesthesiologists physical status class 2 (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "413497009",
+      "display" : "American Society of Anesthesiologists physical status class 3 (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "413498004",
+      "display" : "American Society of Anesthesiologists physical status class 4"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "413499007",
+      "display" : "American Society of Anesthesiologists physical status class 5 (finding)"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "413495001",
+  "display" : "American Society of Anesthesiologists physical status class 1 (finding)"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "American Society of Anesthesiologists physical status class 1 (finding)",
+  "code" : "413495001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest, display-warning\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://snomed.info/sct#413495001 (\"American Society of Anesthesiologists physical status class 1 (finding)\")]\"\r\n0 0     : 0ms  : Check \"http://snomed.info/sct#413495001\"\r\n0 0     : 0ms  : Using CodeSystem \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\" (content = complete)\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "413496000",
+  "display" : "American Society of Anesthesiologists physical status class 2 (finding)"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "American Society of Anesthesiologists physical status class 2 (finding)",
+  "code" : "413496000",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "413497009",
+  "display" : "American Society of Anesthesiologists physical status class 3 (finding)"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "American Society of Anesthesiologists physical status class 3 (finding)",
+  "code" : "413497009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "413498004",
+  "display" : "American Society of Anesthesiologists physical status class 4 (finding)"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "American Society of Anesthesiologists physical status class 4",
+  "code" : "413498004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "413499007",
+  "display" : "American Society of Anesthesiologists physical status class 5 (finding)"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "American Society of Anesthesiologists physical status class 5 (finding)",
+  "code" : "413499007",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "413495001",
+        "display" : "American Society of Anesthesiologists physical status class 1 (finding)"
+      },
+      {
+        "code" : "413496000",
+        "display" : "American Society of Anesthesiologists physical status class 2 (finding)"
+      },
+      {
+        "code" : "413497009",
+        "display" : "American Society of Anesthesiologists physical status class 3 (finding)"
+      },
+      {
+        "code" : "413498004",
+        "display" : "American Society of Anesthesiologists physical status class 4 (finding)"
+      },
+      {
+        "code" : "413499007",
+        "display" : "American Society of Anesthesiologists physical status class 5 (finding)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:35080a71-3665-4f8e-bd1e-2bf3f78348a9",
+    "timestamp" : "2025-12-11T21:49:23.849Z",
+    "total" : 5,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "413495001",
+      "display" : "American Society of Anesthesiologists physical status class 1 (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "413496000",
+      "display" : "American Society of Anesthesiologists physical status class 2 (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "413497009",
+      "display" : "American Society of Anesthesiologists physical status class 3 (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "413498004",
+      "display" : "American Society of Anesthesiologists physical status class 4"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "413499007",
+      "display" : "American Society of Anesthesiologists physical status class 5 (finding)"
     }]
   }
 },
